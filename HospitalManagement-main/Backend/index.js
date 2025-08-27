@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const mongoose = require('mongoose')
-const DocLog = require('./Models/DoctorLoginSchema')
+const DocLog= require('./Models/DoctorLoginSchema')
 // const AddPatientLog = require('./Models/AddPatient')
 const addPatientModel = require('./Models/AddPatient')
 mongoose.connect('mongodb://localhost:27017/doc',{
